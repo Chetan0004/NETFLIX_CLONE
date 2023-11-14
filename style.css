@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#netflix-icon {
+    width: 14rem;
+    height: 8rem; 
+    background-color: rgb(0, 0, 0, 0.01);
+}
+
+#dropdown-signup-btn-container {
+    display: flex;
+    align-items: center;
+    padding-right: 10%;
+}
+
+#netflix-icon-container {
+    padding-left: 10%;
+}
+
+#language-dropdown {
+    margin-right: 3rem;
+    width: 7rem;
+    height: 2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    background-color: black;
+    color: aliceblue;
+}
+
+#sign-up-btn {
+    width: 5rem;
+    height: 2rem;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+#sign-up-btn:hover {
+    background-color: rgb(255, 0, 0, 0.9);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+#main-heading {
+    color: aliceblue;
+    font-size: 1.7rem;
+}
+
+#main-container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sub-heading {
+    margin-top: 1rem;
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+
+#email-heading {
+    color: aliceblue;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+#email-btn-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+#email-input {
+    height: 3.7rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    border: rgba(255, 255, 255, 0.1);
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+
+#email-input:focus {
+    outline: none;
+}
+
+#getstarted-btn {
+    background-color: red;
+    width: 13rem;
+    height: 3.9rem;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+#getstarted-btn i {
+    background-color: red;
+}
+
+#getstarted-btn:hover {
+    background-color: rgb(255, 0, 0, 0.9);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+#container {
+    height: 100vh;
+    background-image: url("Untitled\ design\ \(2\).png");
+    background-size: cover;
+}
+
+#email-box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 18rem;
+    height: 3.8rem;
+    margin-right: 1rem;
+    /* padding-left: 1rem; */
+    border-radius: 0.3rem;
+    color: aliceblue;
+    border: 0.05rem solid;
+    border-color: aqua;
+}
+
+#email-placeholder {
+    padding-left: 1rem;
+    display: none;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* email-box height: 2.85rem; */
+/* email-input height: 2.85rem; */
+
+#page-2, #page-3, #page-4, #page-5 {
+    height: 75vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.7rem solid rgba(128,128,128,0.4);
+}
+
+#page-2-text-area-main-heading, #page-3-text-area-main-heading, #page-4-text-area-main-heading, #page-5-text-area-main-heading {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+#page-2-text-area, #page-3-text-area, #page-4-text-area, #page-5-text-area {
+    color: aliceblue;
+    width: 40rem;
+}
+
+#page-2-text-area-sub-heading, #page-3-text-area-sub-heading, #page-4-text-area-sub-heading, #page-5-text-area-sub-heading {
+    font-size: 1.7rem;
+}
+
+#page-6 {
+    height: 120vh;
+    background-color: black;
+    align-items: center;
+    border-top: 0.7rem solid rgba(128,128,128,0.4);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+
+
+    
+}
+
+#marg {
+    margin-top: 2rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+   
+}
+
+
+#question-1, #question-2, #question-3, #question-4, #question-5, #question-6 {
+    height: 5.3rem;
+    width: 75%;
+    background-color: rgb(128, 128, 128, 0.4);
+    align-items: center;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+   
+}
+
+#question-1:hover, #question-2:hover, #question-3:hover, #question-4:hover, #question-5:hover, #question-6:hover {
+    background-color: rgb(128, 128, 128, 0.7);
+    transition-delay: 0.2s;
+    cursor: pointer;
+ 
+}
+
+#question-1 i, #question-2 i, #question-3 i, #question-4 i, #question-5 i, #question-6 i {
+    padding-right: 1rem;
+    
+}
+
